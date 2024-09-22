@@ -327,6 +327,11 @@ figure {
 }
 
 img,
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 svg {
   vertical-align: middle;
 }
@@ -629,6 +634,7 @@ progress {
   content: "— ";
 }
 
+v
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -10892,7 +10898,7 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-background: linear-gradient(90deg, #5B08A0 0%, #7D03E1 43.71%, #5D02A9 72.45%, #420078 100%);;
+background: linear-gradient(90deg, #6e1cb2 10%, #7D03E1 44%, #5D02A9 70%, rgba(131, 13, 193, 0.99) 100%);;
 }
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11107,90 +11113,8 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: underline;
 }
 
-.masthead {
-  background-color: #f8f9fa;
-  padding-top: 9.5rem;
-  padding-bottom: 5rem;
-}
-.masthead .masthead-device-mockup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.masthead .masthead-device-mockup .circle {
-  position: absolute;
-  fill: url(#circleGradient);
-  width: 70%;
-  display: none;
-}
-.masthead .masthead-device-mockup .circle .gradient-start-color {
-  stop-color: #2937f0;
-}
-.masthead .masthead-device-mockup .circle .gradient-end-color {
-  stop-color: #9f1ae2;
-}
-.masthead .masthead-device-mockup .shape-1 {
-  position: absolute;
-  height: 1rem;
-  width: 1rem;
-  transform: rotate(-10deg);
-  fill: #2937f0;
-  bottom: 15%;
-  left: 10%;
-}
-.masthead .masthead-device-mockup .shape-2 {
-  position: absolute;
-  height: 0.75rem;
-  width: 0.75rem;
-  fill: #2937f0;
-  top: 15%;
-  right: 10%;
-}
-.masthead .masthead-device-mockup .device-wrapper {
-  max-width: 10rem;
-}
-@media (min-width: 576px) {
-  .masthead .masthead-device-mockup .circle {
-    width: 70%;
-    display: block;
-  }
-  .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 12.5rem;
-  }
-}
-@media (min-width: 768px) {
-  .masthead .masthead-device-mockup .circle {
-    width: 60%;
-  }
-  .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
-  }
-}
-@media (min-width: 992px) {
-  .masthead .masthead-device-mockup .circle {
-    width: 90%;
-  }
-  .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
-  }
-}
-@media (min-width: 1200px) {
-  .masthead .masthead-device-mockup .circle {
-    width: 75%;
-  }
-  .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
-  }
-}
-@media (min-width: 1400px) {
-  .masthead .masthead-device-mockup .circle {
-    width: 70%;
-  }
-  .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 17rem;
-  }
-}
+
+
 @keyframes drop {
   0% {
     transform: translateY(-20px);
@@ -11312,5 +11236,58 @@ section.full-background h2, section.full-background p, section.full-background a
 
 
 
+.boton-astro {
+    width: 100%; /* Ocupa el 100% del ancho disponible del contenedor */
+    max-width: 30%; /* Máximo ancho permitido en pantallas grandes */
+    height: auto; /* Deja que la altura se ajuste automáticamente */
+    background-color: #77F2FD;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    box-sizing: border-box; /* Incluye padding y border dentro del tamaño */
+}
+
+/* Ajuste responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+@media (max-width: 768px) {
+    .boton-astro {
+        max-width: 80%; /* Reduce el ancho en dispositivos móviles */
+        margin: 0 auto; /* Centra el botón horizontalmente */
+    }
+}
+
+
+
+
+
+
+.masthead {
+    background-image: url('assets/img/edit%20foto.jpg'); /* Imagen para escritorio */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        background-image: url('assets/img/fondo%20foto%202.jpg'); /* Asegúrate de incluir la extensión */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    /* Ajustes específicos para dispositivos móviles */
+}
 
 

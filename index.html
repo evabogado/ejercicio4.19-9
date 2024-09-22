@@ -25,60 +25,78 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#page-top">
-    <img src="assets/img/logo%20blanco%20logi.png" style="height: 40px;">
-</a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">INICIO</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">CARACTERÍSTICAS</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">SOFTWARE</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">COMPATIBILIDAD</a>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">CONTACTO</a>
-                        </div>
-                </div>
-        </nav>
-<!-- Mashead header-->
-<header class="masthead" style="background-image: url('assets/img/edit%20foto.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
     <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6">
-                <!-- Mashead text and app badges -->
-                <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                    <h1 class="display-1 lh-1 mb-4 orbitron">Domina el juego con los Astro A50 X</h1>
-                    <h5 class="lead fw-normal text-muted mb-5 inter">Sonido envolvente, diseño ergonómico.</h5>
-                    <button style="width: 30%; height: 100%; background-color: #77F2FD; border-radius: 8px; border: 2px solid transparent; color: #373737; font-size: 16px; font-family: 'Inter', sans-serif; font-weight: 500; padding: 10px; cursor: pointer; text-align: center; word-wrap: break-word; transition: background-color 0.3s ease, border-color 0.3s ease;">
-                        SERIE ASTRO
-                    </button>
-                </div>
-            </div>
+        <a class="navbar-brand" href="#page-top">
+            <img src="assets/img/logo%20blanco%20logi.png" style="height: 40px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#page-top">INICIO</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#DESCUBRIR">DESCUBRIR</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#carac">CARACTERÍSTICAS</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#comprar">COMPRAR</a></li> <!-- Cierre de li añadido -->
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#contacto">CONTACTO</a></li>
+            </ul> <!-- Cierre de ul añadido -->
         </div>
     </div>
-</header>
-
-        <!-- Quote/testimonial aside-->
-        <aside class="text-center bg-gradient-primary-to-secondary">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="h3 fs-1 text-white mb-4">"El Astro A50 X redefine el gaming con su sonido superior."</div>
-                        <img src="assets/img/ign-logo%20(1).webp" alt="..." style="height: 3rem" />
+</nav>
+<!-- Mashead header-->
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 text-start">
+                    <div class="mb-5 mb-lg-0">
+<h1 class="display-1 lh-1 mb-4 orbitron" style="margin-top: 100px;">Domina el juego con los Astro A50 X</h1>
+                        <h5 class="lead fw-normal text-muted mb-5 inter">Sonido envolvente, diseño ergonómico.</h5>
+                        <button style="width: 100%; max-width: 150px; height: auto; background-color: #77F2FD; border-radius: 8px; border: 2px solid transparent; color: #373737; font-size: 16px; font-family: 'Inter', sans-serif; font-weight: 500; padding: 10px; cursor: pointer; text-align: center; word-wrap: break-word; transition: background-color 0.3s ease, border-color 0.3s ease;">
+                            SERIE ASTRO
+                        </button>
                     </div>
                 </div>
             </div>
-        </aside>
-       
+        </div>
+    </header>
+
+    <style>
+        .masthead {
+            background-image: url('assets/img/edit%20foto.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        @media (max-width: 768px) {
+            .masthead {
+                background-image: url('assets/img/fondo%20foto%202.jpg');
+            }
+        }
+    </style>
+<!-- Quote/testimonial aside-->
+<aside class="text-center" style="position: relative; background-image: url('assets/img/FONDON ICONS - copia.png'); background-size: cover; background-position: center;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0); z-index: 1;"></div>
+    <div class="container px-5" style="position: relative; z-index: 2;">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-xl-8">
+                <div class="h3 fs-1 text-white mb-4">
+                    "El Astro A50 X redefine el gaming con su sonido superior."
+                </div>
+                <img src="assets/img/ign-logo%20(1).webp" alt="IGN logo" style="height: 3rem;" />
+            </div>
+        </div>
+    </div>
+</aside>
+
 <!-- Basic features section-->
-<section class="bg-light">
-    <div class="container px-5">
+<section class="bg-light" id="DESCUBRIR">
+    <div class="container px-0">
         <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
             <div class="col-12 col-lg-5">
 <h2 style="color: #7A00DE;">LIBERTAD INALÁMBRICA SUPREMA</h2>
@@ -87,110 +105,174 @@
             </div>
             <div class="col-sm-8 col-md-6 p-0">
                 <div class="x-5 px-sm-0 h-100">
-                    <img class="img-fluid h-100 w-100" style="object-fit: cover;" src="assets/img/Astro-A50-X-headset.jpg" alt="..." />
+                    <div class="container px-0">
+    <img class="img-fluid" style="max-width: 100%; height: auto; object-fit: cover;" src="assets/img/Astro-A50-X-headset.jpg" alt="..." />
+</div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+		
+		
+		
+		
+		
 <!-- Basic features section -->
-<!-- App features section -->
-<section id="features">
+<section id="features" style="background-image: url('assets/img/FONDON%20ICONS.png'); background-size: cover; background-position: center;">
     <div class="container-fluid px-0">
-        <div class="row gx-5 align-items-center">
-            <div class="col-md-3 mb-5">
-                <!-- Feature item -->
-                <div class="text-center">
-                    <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Flexible Use</h3>
-                    <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
-                </div>
+        <div class="row gx-5 text-center" style="color: white;">
+            <div class="col-md-3 d-flex flex-column align-items-center">
+                <img src="assets/img/adaptation.png" class="icon-feature" alt="Cambio de Dispositivo" style="width: 60px; height: auto;">
+                <h3 class="font-alt" style="padding-top: 10px; color: #FFFFFF; font-size: 28px;">CAMBIO DE DISPOSITIVO<br>PLAYSYNC 3</h3>
             </div>
-            <div class="col-md-3 mb-5">
-                <!-- Feature item -->
-                <div class="text-center">
-                    <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Free to Use</h3>
-                    <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
-                </div>
+            <div class="col-md-3 d-flex flex-column align-items-center">
+                <img src="assets/img/cells.png" class="icon-feature" alt="Controlador de Audio" style="width: 60px; height: auto;">
+                <h3 class="font-alt" style="padding-top: 10px; color: #FFFFFF; font-size: 28px;">CONTROLADOR DE AUDIO<br>PRO-G GRAPHENE</h3>
             </div>
-            <div class="col-md-3 mb-5">
-                <!-- Feature item -->
-                <div class="text-center">
-                    <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Open Source</h3>
-                    <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
-                </div>
+            <div class="col-md-3 d-flex flex-column align-items-center">
+                <img src="assets/img/headphones.png" class="icon-feature" alt="Tecnología Inalámbrica" style="width: 60px; height: auto;">
+                <h3 class="font-alt" style="padding-top: 10px; color: #FFFFFF; font-size: 28px;">TECNOLOGÍA INALÁMBRICA<br>LIGHTSPEED</h3>
             </div>
-            <div class="col-md-3 mb-5">
-                <!-- Feature item -->
-                <div class="text-center">
-                    <i class="bi-star icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Outstanding Support</h3>
-                    <p class="text-muted mb-0">We provide top-notch support to ensure a smooth experience!</p>
-                </div>
+            <div class="col-md-3 d-flex flex-column align-items-center">
+                <img src="assets/img/battery.png" class="icon-feature" alt="Batería" style="width: 60px; height: auto;">
+                <h3 class="font-alt" style="padding-top: 10px; color: #FFFFFF; font-size: 28px;">AHORA CON MÁS HORAS<br>DE BATTERÍA</h3>
             </div>
         </div>
     </div>
 </section>
 
+
+
+
+
 <!-- Basic features section-->
 <section class="bg-light">
-    <div class="container px-5">
+    <div class="container px-0">
         <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
             <div class="col-sm-8 col-md-6 p-0 mb-5 mb-lg-0"> <!-- Aquí agregamos mb-5 -->
                 <div class="x-5 px-sm-0 h-100">
-                    <img class="img-fluid h-100 w-100" style="object-fit: cover;" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/12/logitech-g-astro-a50-x-3240786.jpg?tf=1200x900" alt="..." />
+					<img class="img-fluid" style="max-width: 100%; height: auto; object-fit: cover;" src="assets/img/PlayStation%20love.jpg" alt="..." />
+					<div class="container px-0">
+					  </div>	
                 </div>
             </div>
             <div class="col-12 col-lg-5">
 <h2 style="color: #7A00DE;">CONEXIÓN DUAL</h2>
-                 <p class="custom-paragraph mb-5 mb-lg-0">Combinando LIGHTSPEED y Bluetooth, permite mezclar audio de tu teléfono y chat de Discord con tu juego, mientras cambias a otros dispositivos.</p>     
-
+                 <p class="custom-paragraph mb-5 mb-lg-0">Combinando LIGHTSPEED y Bluetooth, permite mezclar audio de tu teléfono y chat de Discord con tu juego.</p>     
             </div>
         </div>
     </div>
 </section>
 
+<!-- Full-width image section -->
+<section id="carac" class="carac-section">
+    <div class="container px-0 h-100">
+        <div class="row h-100">
+            <div class="text-center" style="color: white; font-size: 36px; font-weight: 700; margin-top: 0px; padding-bottom: 0">
+                <p style="color: #FFF; text-align: center; font-family: Orbitron; font-size: 32px; font-weight: 600; line-height: normal;">CARACTERÍSTICAS</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .carac-section {
+        background-image: url('assets/img/Frame%2010.jpg'); /* Imagen para escritorio */
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+        margin-top: 0;
+        padding-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+        .carac-section {
+            background-image: url('assets/img/Frame2.jpg'); /* Imagen para dispositivos móviles */
+            height: 850; /* Ajusta la altura si es necesario */
+        }
+    }
+</style>
+
+
 
         <!-- Call to action section-->
-        <section class="cta">
+        <section class="cta" id="comprar">
             <div class="cta-content">
                 <div class="container px-5">
                     <h2 class="text-white display-1 lh-1 mb-4">
-                        Stop waiting.
+                        Sin cables.
                         <br />
-                        Start building.
+                        Sin límites.
                     </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
+           
+					<button style="width: 100%; max-width: 150px; height: auto; background-color: transparent; border-radius: 8px; border: 1px solid white; color: white; font-size: 16px; font-family: 'Inter', sans-serif; font-weight: 400; padding: 10px; cursor: pointer; text-align: center; word-wrap: break-word; transition: background-color 0.3s ease, border-color 0.3s ease;">
+   
+	Comprar ahora
+</button>
+
+
                 </div>
             </div>
         </section>
 
-        <!-- App badge section-->
-        <section class="bg-gradient-primary-to-secondary" id="download">
-            <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
-                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                    <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
-                </div>
+		
+		
+
+<!-- Footer -->
+<footer class="bg-black text-white py-5" id="contacto">
+    <div class="container px-5">
+        <div class="row">
+            <div class="col-md-4 text-left mb-4">
+                <h5>Acerca de</h5>
+                <p class="small">Logitech es un líder en la creación de productos innovadores que conectan a las personas.</p>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-black text-center py-5">
-            <div class="container px-5">
-                <div class="text-white-50 small">
-                    <div class="mb-2">&copy; Your Website 2023. All Rights Reserved.</div>
-                    <a href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a>
-                </div>
+            <div class="col-md-4 text-left mb-4">
+                <h5>Enlaces rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#!" class="text-white">Términos de uso</a></li>
+                    <li><a href="#!" class="text-white">Contacto</a></li>
+                    <li><a href="#!" class="text-white">FAQ</a></li>
+                </ul>
             </div>
-        </footer>
-        <!-- Feedback Modal-->
+            <div class="col-md-4 text-left mb-4">
+                <h5>Síguenos</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/" aria-label="Twitter" class="text-white">
+                            <i class="bi bi-twitter" style="font-size: 30px;"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" aria-label="Instagram" class="text-white">
+                            <i class="bi bi-instagram" style="font-size: 30px;"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" aria-label="Facebook" class="text-white">
+                            <i class="bi bi-facebook" style="font-size: 30px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-white-50 small mt-4 text-left">
+            <div>&copy; Logitech 2024. Reservados todos los derechos.</div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+		
+		
+		
+		
+		
+
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
